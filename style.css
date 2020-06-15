@@ -18,9 +18,6 @@ body {
 }
 
 .hand {
-	background: #343a40;
-	width: 45%;
-	height: 1px;
 	position: absolute;
 	top: 50%;
 	right: 50%;
@@ -28,4 +25,23 @@ body {
 	transform: rotate(90deg);
 	transition: all 0.05s;
 	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+	border-radius: 2px;
+}
+
+.hour-hand {
+	height: 5px;
+	width: 30%;
+	background: #343a40;
+}
+
+.min-hand {
+	height: 3px;
+	width: 40%;
+	background: #343a40;
+}
+
+.second-hand {
+	height: 1px;
+	width: 45%;
+	background: #d73434;
 }
